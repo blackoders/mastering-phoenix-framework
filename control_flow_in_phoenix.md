@@ -14,3 +14,5 @@ So, the **function calls** are faster than **file read operations**.
 
 Ofcourse, we can write `render` function in view but if your response content grows, the function appearance would be weird. 
 So, we need to keep them seperate and tidy and leave **Phoenix** to mess with it. 
+
+This explains why we need the `PageView` module even though it looks empty; because it’s this **module** where the **template** eventually gets converted into a **function**.
